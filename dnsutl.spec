@@ -12,6 +12,8 @@ Source:       http://www.canb.auug.org.au/%7Emillerp/dnsutl/%{name}-%{version}.t
 URL:          http://www.canb.auug.org.au/~millerp/dnsutl/
  
 Buildrequires: byacc gettext-devel gawk
+# (tv) for gsoelim:
+Buildrequires: groff
 BuildRoot:    %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
