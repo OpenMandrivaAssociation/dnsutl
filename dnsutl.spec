@@ -42,7 +42,8 @@ They even understand the \f(CW$include\fP directive.
 %prep
 
 %setup -q 
-%configure
+%configure2_5x
+
 %build
 # doesn't build with -j
 make
