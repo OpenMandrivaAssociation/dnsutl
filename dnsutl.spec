@@ -62,3 +62,39 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 %{_mandir}/man1/*
 
+
+
+%changelog
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.8-5mdv2011.0
++ Revision: 617863
+- the mass rebuild of 2010.0 packages
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 1.8-4mdv2010.0
++ Revision: 428412
+- use %%configure2_5x
+- rebuild
+
+* Tue Jun 17 2008 Thierry Vignaud <tv@mandriva.org> 1.8-3mdv2009.0
++ Revision: 222092
+- buildrequires groff for gsoelim
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Mon Aug 07 2006 Lenny Cartier <lenny@mandriva.com> 1.8-2mdv2007.0
+- rebuild
+
+* Thu Mar 09 2006 Lenny Cartier <lenny@mandriva.com> 1.8-1mdk
+- 1.8
+
+* Thu Jul 07 2005 Lenny Cartier <lenny@mandriva.com> 1.7-1mdk
+- 1.7
+
+* Thu Jun 03 2004 Michael Scherer <misc@mandrake.org> 1.6-8mdk 
+- rebuild for new libintl 
+- add patch0
+- various spec improvement
+
