@@ -1,6 +1,6 @@
 %define name  dnsutl
 %define version   1.8
-%define release   %mkrel 5
+%define release   6
 
 Summary:      Utilities to make DNS easier to configure
 Name:         %{name}
