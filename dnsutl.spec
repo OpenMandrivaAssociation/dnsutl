@@ -9,7 +9,7 @@ Release:      %{release}
 License:    GPL
 Group:        Networking/Other
 Source:       http://www.canb.auug.org.au/%7Emillerp/dnsutl/%{name}-%{version}.tar.bz2
-URL:          http://www.canb.auug.org.au/~millerp/dnsutl/
+URL:          https://www.canb.auug.org.au/~millerp/dnsutl/
  
 Buildrequires: byacc gettext-devel gawk
 # (tv) for gsoelim:
