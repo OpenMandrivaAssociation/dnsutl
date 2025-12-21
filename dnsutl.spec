@@ -11,6 +11,11 @@ Group:        Networking/Other
 Source:       http://www.canb.auug.org.au/%7Emillerp/dnsutl/%{name}-%{version}.tar.bz2
 URL:          https://www.canb.auug.org.au/~millerp/dnsutl/
  
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 Buildrequires: byacc gettext-devel gawk
 # (tv) for gsoelim:
 Buildrequires: groff
